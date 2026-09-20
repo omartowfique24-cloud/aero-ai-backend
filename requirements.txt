@@ -1,0 +1,4 @@
+fastapi
+uvicorns
+google-generativeai
+pydantic

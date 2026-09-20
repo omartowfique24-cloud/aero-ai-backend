@@ -10,7 +10,7 @@ genai.configure(api_key=GOOGLE_API_KEY)
 try:
     model = genai.GenerativeModel('gemini-1.5-flash')
 except Exception:
-    model = genai.GenerativeModel('gemini-pro')
+    model = genai.GenerativeModel('gemini-1.5-flash')
 
 app = FastAPI()
 
